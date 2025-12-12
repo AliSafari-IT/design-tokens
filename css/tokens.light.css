@@ -1,0 +1,50 @@
+[data-theme="light"] {
+  --asm-color-bg: #F9FAFB;
+  --asm-color-surface: #FFFFFF;
+  --asm-color-surface-muted: #F3F4F6;
+  --asm-color-panel: #FFFFFF;
+  --asm-color-modal: #FFFFFF;
+
+  --asm-color-text: #111827;
+  --asm-color-text-muted: #6B7280;
+  --asm-color-border: #D1D5DB;
+
+  --asm-color-brand-primary-50: #EEF2FF;
+  --asm-color-brand-primary-500: #3A5AFE;
+  --asm-color-brand-primary-600: #304FFE;
+  --asm-color-brand-primary-700: #1E40FF;
+
+  --asm-color-semantic-success: #16A34A;
+  --asm-color-semantic-warning: #F59E0B;
+  --asm-color-semantic-error: #EF4444;
+  --asm-color-semantic-info: #0EA5E9;
+
+  --asm-color-button-primary-bg: #304FFE;
+  --asm-color-button-primary-bg-hover: #1E40FF;
+  --asm-color-button-primary-bg-active: #1E40FF;
+  --asm-color-button-primary-text: #FFFFFF;
+
+  --asm-color-button-secondary-bg: #FFFFFF;
+  --asm-color-button-secondary-text: #111827;
+
+  --asm-color-button-ghost-bg-hover: rgba(17, 24, 39, 0.06);
+
+  --asm-color-button-destructive-bg: #EF4444;
+  --asm-color-button-destructive-text: #FFFFFF;
+
+  --asm-color-button-disabled-bg: #D1D5DB;
+  --asm-color-button-disabled-text: #374151;
+
+  --asm-color-input-bg: #FFFFFF;
+  --asm-color-input-text: #111827;
+  --asm-color-input-border: #D1D5DB;
+  --asm-color-input-border-hover: #6B7280;
+  --asm-color-input-border-focus: #304FFE;
+  --asm-color-input-placeholder: #6B7280;
+  --asm-color-input-error-border: #EF4444;
+  --asm-color-input-success-border: #16A34A;
+
+  --asm-color-focus-ring: #3A5AFE;
+
+  --asm-color-overlay-scrim: rgba(17, 24, 39, 0.48);
+}

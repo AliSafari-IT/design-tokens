@@ -1,0 +1,16 @@
+:root {
+  color-scheme: light dark;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --asm-motion-duration-fast: 0ms;
+    --asm-motion-duration-normal: 0ms;
+    --asm-motion-duration-slow: 0ms;
+  }
+}
+
+:where([data-theme]) {
+  background-color: var(--asm-color-bg);
+  color: var(--asm-color-text);
+}

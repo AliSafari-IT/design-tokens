@@ -1,0 +1,6 @@
+[data-density="compact"] {
+  --asm-density-factor: 0.9;
+  --asm-space-component-gap: 12px;
+  --asm-space-control-padding-y: 6px;
+  --asm-space-control-padding-x: 10px;
+}

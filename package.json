@@ -1,0 +1,57 @@
+{
+  "name": "@asafarim/design-tokens",
+  "version": "0.1.0",
+  "private": false,
+  "description": "ASafariM design tokens (TypeScript + CSS variables) with multi-theme support.",
+  "license": "MIT",
+  "author": "ASafariM",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AliSafari-IT/asafarim-dot-be"
+  },
+  "keywords": [
+    "design-tokens",
+    "css-variables",
+    "theming",
+    "typescript"
+  ],
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "sideEffects": [
+    "dist/css/*.css"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./css": {
+      "default": "./dist/css/index.css"
+    },
+    "./build": {
+      "types": "./dist/build/index.d.ts",
+      "import": "./dist/build/index.js",
+      "require": "./dist/build/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "demo": "pnpm --filter design-tokens-demo dev",
+    "lint:tokens": "node -e \"import('@asafarim/design-tokens').then(m => { const r = m.validateTokens(); if (!r.ok) { console.error(r); process.exit(1); } console.log('tokens ok'); })\""
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.7.2"
+  }
+}

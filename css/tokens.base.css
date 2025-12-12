@@ -1,0 +1,121 @@
+:root {
+  --asm-font-family-primary: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  --asm-font-family-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  --asm-font-weight-100: 100;
+  --asm-font-weight-200: 200;
+  --asm-font-weight-300: 300;
+  --asm-font-weight-400: 400;
+  --asm-font-weight-500: 500;
+  --asm-font-weight-600: 600;
+  --asm-font-weight-700: 700;
+  --asm-font-weight-800: 800;
+  --asm-font-weight-900: 900;
+
+  --asm-font-size-xs: 0.75rem;
+  --asm-font-size-sm: 0.875rem;
+  --asm-font-size-md: 1rem;
+  --asm-font-size-lg: 1.125rem;
+  --asm-font-size-xl: 1.25rem;
+  --asm-font-size-2xl: 1.5rem;
+  --asm-font-size-3xl: 1.875rem;
+  --asm-font-size-4xl: 2.25rem;
+  --asm-font-size-5xl: 3rem;
+  --asm-font-size-6xl: 3.75rem;
+
+  --asm-line-height-tight: 1.1;
+  --asm-line-height-normal: 1.4;
+  --asm-line-height-relaxed: 1.6;
+  --asm-line-height-h1: 1.05;
+  --asm-line-height-h2: 1.1;
+  --asm-line-height-h3: 1.15;
+  --asm-line-height-h4: 1.2;
+  --asm-line-height-h5: 1.25;
+  --asm-line-height-h6: 1.25;
+
+  --asm-letter-spacing-tight: -0.01em;
+  --asm-letter-spacing-normal: 0em;
+  --asm-letter-spacing-wide: 0.02em;
+
+  --asm-space-0: 0px;
+  --asm-space-1: 4px;
+  --asm-space-2: 8px;
+  --asm-space-3: 12px;
+  --asm-space-4: 16px;
+  --asm-space-5: 20px;
+  --asm-space-6: 24px;
+  --asm-space-8: 32px;
+  --asm-space-10: 40px;
+  --asm-space-12: 48px;
+  --asm-space-16: 64px;
+
+  --asm-space-page-padding-x: clamp(16px, 3vw, 32px);
+  --asm-space-page-padding-y: clamp(16px, 3vw, 40px);
+  --asm-space-section-gap: clamp(24px, 4vw, 64px);
+  --asm-space-component-gap: 16px;
+
+  --asm-grid-columns: 12;
+  --asm-grid-gutter: 24px;
+
+  --asm-container-xs: 480px;
+  --asm-container-sm: 640px;
+  --asm-container-md: 768px;
+  --asm-container-lg: 1024px;
+  --asm-container-xl: 1280px;
+  --asm-container-2xl: 1360px;
+
+  --asm-radius-sm: 6px;
+  --asm-radius-md: 10px;
+  --asm-radius-lg: 12px;
+  --asm-radius-xl: 16px;
+  --asm-radius-full: 9999px;
+
+  --asm-border-hairline: 1px;
+  --asm-border-thin: 2px;
+  --asm-border-thick: 3px;
+
+  --asm-effect-shadow-sm: 0 1px 2px rgba(17, 24, 39, 0.06);
+  --asm-effect-shadow-md: 0 6px 20px rgba(17, 24, 39, 0.10);
+  --asm-effect-shadow-lg: 0 16px 40px rgba(17, 24, 39, 0.14);
+  --asm-effect-shadow-xl: 0 24px 60px rgba(17, 24, 39, 0.18);
+
+  --asm-effect-blur-sm: 4px;
+  --asm-effect-blur-md: 8px;
+  --asm-effect-blur-lg: 16px;
+
+  --asm-motion-duration-fast: 120ms;
+  --asm-motion-duration-normal: 200ms;
+  --asm-motion-duration-slow: 320ms;
+
+  --asm-motion-easing-standard: cubic-bezier(0.2, 0, 0, 1);
+  --asm-motion-easing-emphasized: cubic-bezier(0.2, 0, 0, 1.2);
+  --asm-motion-easing-entrance: cubic-bezier(0, 0, 0, 1);
+  --asm-motion-easing-exit: cubic-bezier(0.4, 0, 1, 1);
+
+  --asm-transition-fade: opacity var(--asm-motion-duration-normal) var(--asm-motion-easing-standard);
+  --asm-transition-slide: transform var(--asm-motion-duration-normal) var(--asm-motion-easing-standard);
+  --asm-transition-scale: transform var(--asm-motion-duration-fast) var(--asm-motion-easing-emphasized);
+
+  --asm-z-base: 0;
+  --asm-z-dropdown: 100;
+  --asm-z-sticky: 200;
+  --asm-z-overlay: 300;
+  --asm-z-modal: 400;
+  --asm-z-popover: 450;
+  --asm-z-tooltip: 500;
+  --asm-z-toast: 600;
+
+  --asm-icon-size-xs: 12px;
+  --asm-icon-size-sm: 16px;
+  --asm-icon-size-md: 20px;
+  --asm-icon-size-lg: 24px;
+  --asm-icon-size-xl: 28px;
+
+  --asm-icon-stroke-thin: 1;
+  --asm-icon-stroke-regular: 1.5;
+  --asm-icon-stroke-bold: 2;
+
+  --asm-density-factor: 1;
+  --asm-space-control-padding-y: 8px;
+  --asm-space-control-padding-x: 12px;
+}
