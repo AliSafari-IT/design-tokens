@@ -49,6 +49,12 @@ This ships a layered CSS setup:
 3. `[data-density]` density tokens
 4. `[dir="rtl"]` RTL helpers
 
+### Playground screenshots
+
+![Design tokens playground (light)](./demo/public/design-tokens-light.png)
+
+![Design tokens playground (dark)](./demo/public/design-tokens-dark.png)
+
 ### Theme switching
 
 ```ts
