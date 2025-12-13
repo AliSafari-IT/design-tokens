@@ -1,6 +1,6 @@
 {
   "name": "@asafarim/design-tokens",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": false,
   "description": "ASafariM design tokens (TypeScript + CSS variables) with multi-theme support.",
   "license": "MIT",
@@ -24,6 +24,7 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "style": "./dist/css/index.css",
   "files": [
     "dist",
     "README.md",
@@ -40,8 +41,10 @@
       "require": "./dist/index.cjs"
     },
     "./css": {
+      "style": "./dist/css/index.css",
       "default": "./dist/css/index.css"
     },
+    "./dist/css/index.css": "./dist/css/index.css",
     "./build": {
       "types": "./dist/build/index.d.ts",
       "import": "./dist/build/index.js",
