@@ -1,4 +1,4 @@
-[data-theme="dark"] {
+:root {
   --asm-color-bg: #0B1220;
   --asm-color-surface: #0F172A;
   --asm-color-surface-muted: #111B2E;

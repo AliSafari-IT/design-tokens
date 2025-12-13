@@ -1,4 +1,4 @@
-[data-contrast="high"] {
+:root {
   --asm-color-bg: #000000;
   --asm-color-surface: #000000;
   --asm-color-surface-muted: #000000;
