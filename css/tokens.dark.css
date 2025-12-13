@@ -9,10 +9,122 @@
   --asm-color-text-muted: #9CA3AF;
   --asm-color-border: #1F2937;
 
+  /* Primary Color Scale */
+  --asm-color-primary-0: #0F172A;
+  --asm-color-primary-50: #1E293B;
+  --asm-color-primary-100: #1E3A8A;
+  --asm-color-primary-200: #1E40FF;
+  --asm-color-primary-300: #304FFE;
+  --asm-color-primary-400: #3A5AFE;
+  --asm-color-primary-500: #4F6BFF;
+  --asm-color-primary-600: #6B82FF;
+  --asm-color-primary-700: #818CF8;
+  --asm-color-primary-800: #A5B4FC;
+  --asm-color-primary-900: #C7D2FE;
+  --asm-color-primary-950: #E0E7FF;
+
   --asm-color-brand-primary-50: #EEF2FF;
   --asm-color-brand-primary-500: #3A5AFE;
   --asm-color-brand-primary-600: #3A5AFE;
   --asm-color-brand-primary-700: #304FFE;
+
+  /* Warning Color Scale */
+  --asm-color-warning-0: #451A03;
+  --asm-color-warning-50: #78350F;
+  --asm-color-warning-100: #92400E;
+  --asm-color-warning-200: #B45309;
+  --asm-color-warning-300: #D97706;
+  --asm-color-warning-400: #F59E0B;
+  --asm-color-warning-500: #FBBF24;
+  --asm-color-warning-600: #FCD34D;
+  --asm-color-warning-700: #FDE68A;
+  --asm-color-warning-800: #FEF3C7;
+  --asm-color-warning-900: #FFFBEB;
+  --asm-color-warning-950: #FFFEF5;
+
+  /* Danger Color Scale */
+  --asm-color-danger-0: #450A0A;
+  --asm-color-danger-50: #7F1D1D;
+  --asm-color-danger-100: #991B1B;
+  --asm-color-danger-200: #B91C1C;
+  --asm-color-danger-300: #DC2626;
+  --asm-color-danger-400: #EF4444;
+  --asm-color-danger-500: #F87171;
+  --asm-color-danger-600: #FCA5A5;
+  --asm-color-danger-700: #FECACA;
+  --asm-color-danger-800: #FEE2E2;
+  --asm-color-danger-900: #FEF2F2;
+  --asm-color-danger-950: #FEF9F9;
+
+  /* Info Color Scale */
+  --asm-color-info-0: #082F49;
+  --asm-color-info-50: #0C4A6E;
+  --asm-color-info-100: #075985;
+  --asm-color-info-200: #0369A1;
+  --asm-color-info-300: #0284C7;
+  --asm-color-info-400: #0EA5E9;
+  --asm-color-info-500: #38BDF8;
+  --asm-color-info-600: #7DD3FC;
+  --asm-color-info-700: #BAE6FD;
+  --asm-color-info-800: #E0F2FE;
+  --asm-color-info-900: #F0F9FF;
+  --asm-color-info-950: #F7FCFF;
+
+  /* Success Color Scale */
+  --asm-color-success-0: #052E16;
+  --asm-color-success-50: #14532D;
+  --asm-color-success-100: #166534;
+  --asm-color-success-200: #15803D;
+  --asm-color-success-300: #16A34A;
+  --asm-color-success-400: #22C55E;
+  --asm-color-success-500: #4ADE80;
+  --asm-color-success-600: #86EFAC;
+  --asm-color-success-700: #BBF7D0;
+  --asm-color-success-800: #DCFCE7;
+  --asm-color-success-900: #F0FDF4;
+  --asm-color-success-950: #F7FEF9;
+
+  /* Purple Color Scale */
+  --asm-color-purple-0: #3B0764;
+  --asm-color-purple-50: #581C87;
+  --asm-color-purple-100: #6B21A8;
+  --asm-color-purple-200: #7E22CE;
+  --asm-color-purple-300: #9333EA;
+  --asm-color-purple-400: #A855F7;
+  --asm-color-purple-500: #C084FC;
+  --asm-color-purple-600: #D8B4FE;
+  --asm-color-purple-700: #E9D5FF;
+  --asm-color-purple-800: #F3E8FF;
+  --asm-color-purple-900: #FAF5FF;
+  --asm-color-purple-950: #FDFAFF;
+
+  /* Neutral Color Scale */
+  --asm-color-neutral-0: #030712;
+  --asm-color-neutral-50: #111827;
+  --asm-color-neutral-100: #1F2937;
+  --asm-color-neutral-200: #374151;
+  --asm-color-neutral-300: #4B5563;
+  --asm-color-neutral-400: #6B7280;
+  --asm-color-neutral-500: #9CA3AF;
+  --asm-color-neutral-600: #D1D5DB;
+  --asm-color-neutral-700: #E5E7EB;
+  --asm-color-neutral-800: #F3F4F6;
+  --asm-color-neutral-900: #F9FAFB;
+  --asm-color-neutral-950: #FCFCFD;
+
+  /* Secondary Color Scale */
+  --asm-color-secondary-0: #042F2E;
+  --asm-color-secondary-50: #134E4A;
+  --asm-color-secondary-100: #115E59;
+  --asm-color-secondary-200: #0F766E;
+  --asm-color-secondary-300: #0D9488;
+  --asm-color-secondary-400: #14B8A6;
+  --asm-color-secondary-500: #2DD4BF;
+  --asm-color-secondary-600: #5EEAD4;
+  --asm-color-secondary-700: #99F6E4;
+  --asm-color-secondary-800: #CCFBF1;
+  --asm-color-secondary-900: #F0FDFA;
+  --asm-color-secondary-950: #F7FEFD;
 
   --asm-color-semantic-success: #22C55E;
   --asm-color-semantic-warning: #FBBF24;

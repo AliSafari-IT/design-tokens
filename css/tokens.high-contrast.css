@@ -9,10 +9,122 @@
   --asm-color-text-muted: #FFFFFF;
   --asm-color-border: #FFFFFF;
 
+  /* Primary Color Scale */
+  --asm-color-primary-0: #000000;
+  --asm-color-primary-50: #1A1A1A;
+  --asm-color-primary-100: #333333;
+  --asm-color-primary-200: #4D4D4D;
+  --asm-color-primary-300: #666666;
+  --asm-color-primary-400: #808080;
+  --asm-color-primary-500: #FFFFFF;
+  --asm-color-primary-600: #FFFFFF;
+  --asm-color-primary-700: #FFFFFF;
+  --asm-color-primary-800: #FFFFFF;
+  --asm-color-primary-900: #FFFFFF;
+  --asm-color-primary-950: #FFFFFF;
+
   --asm-color-brand-primary-50: #FFFFFF;
   --asm-color-brand-primary-500: #FFFFFF;
   --asm-color-brand-primary-600: #FFFFFF;
   --asm-color-brand-primary-700: #FFFFFF;
+
+  /* Warning Color Scale */
+  --asm-color-warning-0: #000000;
+  --asm-color-warning-50: #1A1A00;
+  --asm-color-warning-100: #333300;
+  --asm-color-warning-200: #666600;
+  --asm-color-warning-300: #999900;
+  --asm-color-warning-400: #CCCC00;
+  --asm-color-warning-500: #FFFF00;
+  --asm-color-warning-600: #FFFF33;
+  --asm-color-warning-700: #FFFF66;
+  --asm-color-warning-800: #FFFF99;
+  --asm-color-warning-900: #FFFFCC;
+  --asm-color-warning-950: #FFFFEE;
+
+  /* Danger Color Scale */
+  --asm-color-danger-0: #000000;
+  --asm-color-danger-50: #1A0000;
+  --asm-color-danger-100: #330000;
+  --asm-color-danger-200: #660000;
+  --asm-color-danger-300: #990000;
+  --asm-color-danger-400: #CC0000;
+  --asm-color-danger-500: #FF0000;
+  --asm-color-danger-600: #FF3333;
+  --asm-color-danger-700: #FF6666;
+  --asm-color-danger-800: #FF9999;
+  --asm-color-danger-900: #FFCCCC;
+  --asm-color-danger-950: #FFEEEE;
+
+  /* Info Color Scale */
+  --asm-color-info-0: #000000;
+  --asm-color-info-50: #001A1A;
+  --asm-color-info-100: #003333;
+  --asm-color-info-200: #006666;
+  --asm-color-info-300: #009999;
+  --asm-color-info-400: #00CCCC;
+  --asm-color-info-500: #00FFFF;
+  --asm-color-info-600: #33FFFF;
+  --asm-color-info-700: #66FFFF;
+  --asm-color-info-800: #99FFFF;
+  --asm-color-info-900: #CCFFFF;
+  --asm-color-info-950: #EEFFFF;
+
+  /* Success Color Scale */
+  --asm-color-success-0: #000000;
+  --asm-color-success-50: #001A00;
+  --asm-color-success-100: #003300;
+  --asm-color-success-200: #006600;
+  --asm-color-success-300: #009900;
+  --asm-color-success-400: #00CC00;
+  --asm-color-success-500: #00FF00;
+  --asm-color-success-600: #33FF33;
+  --asm-color-success-700: #66FF66;
+  --asm-color-success-800: #99FF99;
+  --asm-color-success-900: #CCFFCC;
+  --asm-color-success-950: #EEFFEE;
+
+  /* Purple Color Scale */
+  --asm-color-purple-0: #000000;
+  --asm-color-purple-50: #1A001A;
+  --asm-color-purple-100: #330033;
+  --asm-color-purple-200: #660066;
+  --asm-color-purple-300: #990099;
+  --asm-color-purple-400: #CC00CC;
+  --asm-color-purple-500: #FF00FF;
+  --asm-color-purple-600: #FF33FF;
+  --asm-color-purple-700: #FF66FF;
+  --asm-color-purple-800: #FF99FF;
+  --asm-color-purple-900: #FFCCFF;
+  --asm-color-purple-950: #FFEEFF;
+
+  /* Neutral Color Scale */
+  --asm-color-neutral-0: #000000;
+  --asm-color-neutral-50: #1A1A1A;
+  --asm-color-neutral-100: #333333;
+  --asm-color-neutral-200: #4D4D4D;
+  --asm-color-neutral-300: #666666;
+  --asm-color-neutral-400: #808080;
+  --asm-color-neutral-500: #999999;
+  --asm-color-neutral-600: #B3B3B3;
+  --asm-color-neutral-700: #CCCCCC;
+  --asm-color-neutral-800: #E6E6E6;
+  --asm-color-neutral-900: #FFFFFF;
+  --asm-color-neutral-950: #FFFFFF;
+
+  /* Secondary Color Scale */
+  --asm-color-secondary-0: #000000;
+  --asm-color-secondary-50: #001A1A;
+  --asm-color-secondary-100: #003333;
+  --asm-color-secondary-200: #004D4D;
+  --asm-color-secondary-300: #006666;
+  --asm-color-secondary-400: #008080;
+  --asm-color-secondary-500: #00CCCC;
+  --asm-color-secondary-600: #00FFFF;
+  --asm-color-secondary-700: #66FFFF;
+  --asm-color-secondary-800: #99FFFF;
+  --asm-color-secondary-900: #CCFFFF;
+  --asm-color-secondary-950: #EEFFFF;
 
   --asm-color-semantic-success: #00FF00;
   --asm-color-semantic-warning: #FFFF00;

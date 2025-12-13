@@ -1,6 +1,6 @@
 {
   "name": "@asafarim/design-tokens",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "private": false,
   "description": "ASafariM design tokens (TypeScript + CSS variables) with multi-theme support.",
   "license": "MIT",
