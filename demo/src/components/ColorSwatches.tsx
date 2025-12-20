@@ -1,5 +1,6 @@
-import { tokens } from "@asafarim/design-tokens";
 import Section from "./Section";
+
+import { tokens } from "@asafarim/design-tokens";
 
 const swatchStyle = (color: string) => ({
   background: color,

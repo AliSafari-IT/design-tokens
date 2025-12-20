@@ -1,8 +1,8 @@
 {
   "name": "@asafarim/design-tokens",
-  "version": "0.3.6",
+  "version": "0.4.1",
   "private": false,
-  "description": "ASafariM design tokens (CSS variables) with multi-theme support.",
+  "description": "ASafariM design tokens (CSS variables) with multi-theme support and 30 variable fonts (100-900).",
   "license": "MIT",
   "author": "ASafariM",
   "repository": {
@@ -22,6 +22,7 @@
   "style": "css/index.css",
   "files": [
     "css",
+    "src",
     "README.md",
     "CHANGELOG.md",
     "LICENSE"
@@ -30,6 +31,10 @@
     "css/*.css"
   ],
   "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
     "./css": {
       "style": "./css/index.css",
       "default": "./css/index.css"

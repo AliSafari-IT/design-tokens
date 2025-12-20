@@ -1,10 +1,48 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap");
+/* ------------------------------------------------------------------ */
+/* 20 fonts (100-900) Google Fonts */
+/* ------------------------------------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sora:wght@100..800&family=Space+Grotesk:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Borel&family=DynaPuff:wght@400..700&family=Gabarito:wght@400..900&family=Kranky&family=Macondo&family=Playpen+Sans:wght@100..800&family=Rubik+Spray+Paint&family=Shadows+Into+Light+Two&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 
 :root {
-  --asm-font-family-primary: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
-  --asm-font-family-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --asm-font-family-primary: Inter, ui-sans-serif, system-ui, -apple-system,
+    Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  --asm-font-family-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo,
+    Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --asm-font-family-poppins: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --asm-font-family-open-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
+  --asm-font-family-lato: "Lato", ui-sans-serif, system-ui, sans-serif;
+  --asm-font-family-rubik: "Rubik", ui-sans-serif, system-ui, sans-serif;
+  --asm-font-family-nunito: "Nunito", ui-sans-serif, system-ui, sans-serif;
+  --asm-font-family-work-sans: "Work Sans", ui-sans-serif, system-ui, sans-serif;
+  --asm-font-family-manrope: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --asm-font-family-figtree: "Figtree", ui-sans-serif, system-ui, sans-serif;
+  --asm-font-family-sora: "Sora", ui-sans-serif, system-ui, sans-serif;
+  --asm-font-family-outfit: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --asm-font-family-lexend: "Lexend", ui-sans-serif, system-ui, sans-serif;
+  --asm-font-family-public-sans: "Public Sans", ui-sans-serif, system-ui,
+    sans-serif;
+  --asm-font-family-dm-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --asm-font-family-overpass: "Overpass", ui-sans-serif, system-ui, sans-serif;
+  --asm-font-family-quicksand: "Quicksand", ui-sans-serif, system-ui, sans-serif;
+  --asm-font-family-karla: "Karla", ui-sans-serif, system-ui, sans-serif;
+  --asm-font-family-barlow: "Barlow", ui-sans-serif, system-ui, sans-serif;
+  --asm-font-family-space-grotesk: "Space Grotesk", ui-sans-serif, system-ui,
+    sans-serif;
+  --asm-font-family-red-hat: "Red Hat Display", ui-sans-serif, system-ui,
+    sans-serif;
+  --asm-font-family-jost: "Jost", ui-sans-serif, system-ui, sans-serif;
+
+  --asm-font-family-barriecito: "Barriecito", cursive, sans-serif;
+  --asm-font-family-borel: "Borel", cursive, sans-serif;
+  --asm-font-family-dynapuff: "DynaPuff", cursive, sans-serif;
+  --asm-font-family-gabarito: "Gabarito", sans-serif;
+  --asm-font-family-kranky: "Kranky", cursive, sans-serif;
+  --asm-font-family-macondo: "Macondo", cursive, sans-serif;
+  --asm-font-family-playpen-sans: "Playpen Sans", cursive, sans-serif;
+  --asm-font-family-rubik-spray: "Rubik Spray Paint", cursive, sans-serif;
+  --asm-font-family-shadows-light: "Shadows Into Light Two", cursive, sans-serif;
+  --asm-font-family-zalando: "Zalando Sans", ui-sans-serif, system-ui, sans-serif;
 
   --asm-font-weight-100: 100;
   --asm-font-weight-200: 200;
@@ -79,7 +117,7 @@
   --asm-border-thick: 3px;
 
   --asm-effect-shadow-sm: 0 1px 2px rgba(17, 24, 39, 0.06);
-  --asm-effect-shadow-md: 0 6px 20px rgba(17, 24, 39, 0.10);
+  --asm-effect-shadow-md: 0 6px 20px rgba(17, 24, 39, 0.1);
   --asm-effect-shadow-lg: 0 16px 40px rgba(17, 24, 39, 0.14);
   --asm-effect-shadow-xl: 0 24px 60px rgba(17, 24, 39, 0.18);
 
@@ -96,9 +134,12 @@
   --asm-motion-easing-entrance: cubic-bezier(0, 0, 0, 1);
   --asm-motion-easing-exit: cubic-bezier(0.4, 0, 1, 1);
 
-  --asm-transition-fade: opacity var(--asm-motion-duration-normal) var(--asm-motion-easing-standard);
-  --asm-transition-slide: transform var(--asm-motion-duration-normal) var(--asm-motion-easing-standard);
-  --asm-transition-scale: transform var(--asm-motion-duration-fast) var(--asm-motion-easing-emphasized);
+  --asm-transition-fade: opacity var(--asm-motion-duration-normal)
+    var(--asm-motion-easing-standard);
+  --asm-transition-slide: transform var(--asm-motion-duration-normal)
+    var(--asm-motion-easing-standard);
+  --asm-transition-scale: transform var(--asm-motion-duration-fast)
+    var(--asm-motion-easing-emphasized);
 
   --asm-z-base: 0;
   --asm-z-dropdown: 100;

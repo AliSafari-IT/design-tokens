@@ -9,6 +9,7 @@ import MotionShowcase from "../components/MotionShowcase";
 import ZIndexShowcase from "../components/ZIndexShowcase";
 import UiStatesShowcase from "../components/UiStatesShowcase";
 import DataVizPalette from "../components/DataVizPalette";
+import FontShowcase from "../components/FontShowcase";
 
 export default function PlaygroundPage() {
   return (
@@ -23,6 +24,7 @@ export default function PlaygroundPage() {
       <main className="playground-main">
         <ColorSwatches />
         <TypographyScale />
+        <FontShowcase />
         <SpacingScale />
         <RadiiShowcase />
         <ShadowShowcase />
