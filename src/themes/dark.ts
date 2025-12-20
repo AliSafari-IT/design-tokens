@@ -22,10 +22,10 @@ export const dark: ThemeDefinition = {
     "--asm-color-brand-primary-600": brand.primary500.value,
     "--asm-color-brand-primary-700": brand.primary600.value,
 
-    "--asm-color-semantic-success": "#22C55E",
-    "--asm-color-semantic-warning": "#FBBF24",
-    "--asm-color-semantic-error": "#F87171",
-    "--asm-color-semantic-info": "#38BDF8",
+    "--asm-color-semantic-success": semantic.success.value,
+    "--asm-color-semantic-warning": semantic.warning.value,
+    "--asm-color-semantic-error": semantic.error.value,
+    "--asm-color-semantic-info": semantic.info.value,
 
     "--asm-color-button-primary-bg": brand.primary500.value,
     "--asm-color-button-primary-bg-hover": brand.primary600.value,
