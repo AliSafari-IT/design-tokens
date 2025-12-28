@@ -4,6 +4,12 @@ All notable changes to `@asafarim/design-tokens` will be documented in this file
 
 This project follows [Semantic Versioning](https://semver.org/).
 
+## 0.4.6
+
+- Fixed GitHub Actions workflow to work without lock file
+- Removed frozen-lockfile requirement from CI/CD
+- Made package independent from monorepo workspace
+
 ## 0.4.4
 
 - Added automated GitHub Pages demo deployment
