@@ -43,7 +43,9 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "demo": "pnpm --filter design-tokens-demo dev"
+    "demo": "pnpm --filter design-tokens-demo dev",
+    "build": "tsup",
+    "build:demo": "cd demo && pnpm build"
   },
   "publishConfig": {
     "access": "public"
