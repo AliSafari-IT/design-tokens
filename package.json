@@ -1,6 +1,6 @@
 {
   "name": "@asafarim/design-tokens",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "private": false,
   "description": "ASafariM design tokens (CSS variables) with multi-theme support and 30 variable fonts (100-900).",
   "license": "MIT",
@@ -56,5 +56,5 @@
   "bugs": {
     "url": "https://github.com/AliSafari-IT/design-tokens/issues"
   },
-  "homepage": "https://github.com/AliSafari-IT/design-tokens#readme"
+  "homepage": "https://alisafari-it.github.io/design-tokens/"
 }
