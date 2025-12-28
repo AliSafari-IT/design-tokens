@@ -10,6 +10,7 @@ import ZIndexShowcase from "../components/ZIndexShowcase";
 import UiStatesShowcase from "../components/UiStatesShowcase";
 import DataVizPalette from "../components/DataVizPalette";
 import FontShowcase from "../components/FontShowcase";
+import '../styles/layout.css';
 
 export default function PlaygroundPage() {
   return (

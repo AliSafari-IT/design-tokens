@@ -43,7 +43,7 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "demo": "pnpm --filter design-tokens-demo dev",
+    "demo": "cd demo && pnpm run dev",
     "build": "tsup",
     "build:demo": "cd demo && pnpm build"
   },

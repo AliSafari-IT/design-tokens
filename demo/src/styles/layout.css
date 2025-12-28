@@ -18,9 +18,11 @@
 }
 
 .playground-title {
-  font-size: var(--asm-font-size-xl);
-  font-weight: var(--asm-font-weight-600);
-  color: var(--asm-color-text);
+  font-size: var(--asm-font-size-4xl);
+  font-style: var(--asm-font-style-normal);
+  font-family: var(--asm-font-family-playpen-sans);
+  font-weight: var(--asm-font-weight-900);
+  color: var(--asm-color-primary-500);
 }
 
 .playground-controls {
