@@ -4,6 +4,13 @@ All notable changes to `@asafarim/design-tokens` will be documented in this file
 
 This project follows [Semantic Versioning](https://semver.org/).
 
+## 0.4.4
+
+- Added automated GitHub Pages demo deployment
+- Demo app now deployed to https://alisafari-it.github.io/design-tokens/
+- Fixed GitHub Actions workflow environment configuration
+- Updated package homepage to point to live demo
+
 ## 0.1.0
 
 - Initial release.
